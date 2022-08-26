@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verify login functionality for valid username and invalid password",
+        "description": "",
+        "id": "verify-login-fuctionality-in-facebook-application;verify-login-functionality-for-valid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "User is on Facebook login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User enters valid username and invalid password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user clicks on login button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Error page is dispalyed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify login fuctionality in Facebook application",
+    "description": "",
+    "id": "verify-login-fuctionality-in-facebook-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Facebook.feature",
+    "tags": []
+  }
+]
