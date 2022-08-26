@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="106" started-at="2022-03-30T04:29:17Z" finished-at="2022-03-30T04:29:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="106" started-at="2022-03-30T04:29:17Z" finished-at="2022-03-30T04:29:17Z">
+      <class name="testngDataProvider.ParallelExecution">
+        <test-method status="PASS" signature="tc2()[pri:0, instance:testngDataProvider.ParallelExecution@7f63425a]" name="tc2" duration-ms="0" started-at="2022-03-30T09:59:17Z" finished-at="2022-03-30T09:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc3()[pri:0, instance:testngDataProvider.ParallelExecution@7f63425a]" name="tc3" duration-ms="0" started-at="2022-03-30T09:59:17Z" finished-at="2022-03-30T09:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="tc1()[pri:0, instance:testngDataProvider.ParallelExecution@7f63425a]" name="tc1" duration-ms="0" started-at="2022-03-30T09:59:17Z" finished-at="2022-03-30T09:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- testngDataProvider.ParallelExecution -->
+      <class name="testngDataProvider.ParallelExecution2">
+        <test-method status="PASS" signature="tc100()[pri:0, instance:testngDataProvider.ParallelExecution2@7c75222b]" name="tc100" duration-ms="0" started-at="2022-03-30T09:59:17Z" finished-at="2022-03-30T09:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc100 -->
+        <test-method status="PASS" signature="tc200()[pri:0, instance:testngDataProvider.ParallelExecution2@7c75222b]" name="tc200" duration-ms="1" started-at="2022-03-30T09:59:17Z" finished-at="2022-03-30T09:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc200 -->
+        <test-method status="PASS" signature="tc300()[pri:0, instance:testngDataProvider.ParallelExecution2@7c75222b]" name="tc300" duration-ms="3" started-at="2022-03-30T09:59:17Z" finished-at="2022-03-30T09:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc300 -->
+      </class> <!-- testngDataProvider.ParallelExecution2 -->
+      <class name="testngDataProvider.ParallelExecution1">
+        <test-method status="PASS" signature="tc1000()[pri:0, instance:testngDataProvider.ParallelExecution1@880ec60]" name="tc1000" duration-ms="16" started-at="2022-03-30T09:59:17Z" finished-at="2022-03-30T09:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1000 -->
+        <test-method status="PASS" signature="tc2000()[pri:0, instance:testngDataProvider.ParallelExecution1@880ec60]" name="tc2000" duration-ms="0" started-at="2022-03-30T09:59:17Z" finished-at="2022-03-30T09:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2000 -->
+        <test-method status="PASS" signature="tc3000()[pri:0, instance:testngDataProvider.ParallelExecution1@880ec60]" name="tc3000" duration-ms="9" started-at="2022-03-30T09:59:17Z" finished-at="2022-03-30T09:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3000 -->
+      </class> <!-- testngDataProvider.ParallelExecution1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
